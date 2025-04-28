@@ -10,7 +10,7 @@ import Contact from '@/components/contact';
 
 const HomePage = () => {
   return (
-    <div>
+    <div  style={{ overflowX: 'hidden' }}>
       <Header />
       <Carousel />
       <AboutUs />

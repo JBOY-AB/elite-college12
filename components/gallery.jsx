@@ -89,11 +89,11 @@ const gallery = () => {
       <div className="grid-title"></div>
     </div>
     <div className="grid-item">
-      <img src="/image/c5.jpg" alt="" />
+      <img src="/image/pr2.jpg" alt="" />
       <div className="grid-title"></div>
     </div>
     <div className="grid-item">
-      <img src="/image/c1.jpg" alt="" />
+      <img src="/image/pr.jpg" alt="" />
       <div className="grid-title"></div>
     </div>
   </div>
