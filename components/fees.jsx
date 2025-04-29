@@ -9,19 +9,19 @@ const fees = () => {
   <h2>Bank Transfer Options</h2>
   <div className="payment-options">
     <div className="bank-option">
-      <h3>GTBank Account</h3>
+      <h3>Moniepoint Account</h3>
       <div className="bank-details">
         <p>
-          <strong>Bank Name:</strong> Guaranty Trust Bank (GTB)
+          <strong>Bank Name:</strong> Monieopoint acc
         </p>
         <p>
-          <strong>Account Number:</strong> 0316263558
+          <strong>Account Number:</strong> 6514221660
         </p>
         <p>
-          <strong>Account Name:</strong> [Your Institution Name]
+          <strong>Account Name:</strong> [The Inspired Elites Global Academy]
         </p>
       </div>
-      <p>Make transfer to the GTBank account details above</p>
+      <p>Make transfer to the Moniepoint account details above</p>
     </div>
     <div className="bank-option">
       <h3>Zenith Bank Account</h3>
@@ -30,17 +30,17 @@ const fees = () => {
           <strong>Bank Name:</strong> Zenith Bank
         </p>
         <p>
-          <strong>Account Number:</strong> 1012675114
+          <strong>Account Number:</strong> 1313217426
         </p>
         <p>
-          <strong>Account Name:</strong> [Your Institution Name]
+          <strong>Account Name:</strong> [The Inspired Elites Global Academy]
         </p>
       </div>
       <p>Make transfer to the Zenith Bank account details above</p>
     </div>
   </div>
   <h2>Online Payment</h2>
-  <div className="online-payment">
+  {/* <div className="online-payment">
     <p>
       For your convenience, you can also pay online using our secure payment
       gateway:
@@ -48,7 +48,7 @@ const fees = () => {
     <a href="#" className="pay-button">
       PAY ONLINE
     </a>
-  </div>
+  </div> */}
   <div className="after-payment">
     <h2>After Payment</h2>
     <p>Once your payment is completed:</p>
@@ -59,8 +59,8 @@ const fees = () => {
     </ol>
     <p>
       For payment verification or assistance, please contact{" "}
-      <a href="mailto:support@example.com">support@example.com</a> or call +234
-      XXX XXXX XXX.
+      <a href="mailto:Elitescollege@gmail.com">Elitescollege@gmail.com</a> or call +234
+      8133478247
     </p>
   </div>
 </div>

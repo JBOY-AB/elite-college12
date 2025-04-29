@@ -5,6 +5,7 @@ const Header = () => {
 
   const toggleMobileNav = () => {
     setMobileNavVisible(!isMobileNavVisible);
+    document.body.classList.toggle('no-scroll', !isMobileNavVisible);
   };
 
   return (

@@ -82,12 +82,9 @@ const Carousel = () => {
                     style={{ backgroundImage: "url(/image/IMG_4451.png )" }}
                 >
                     <div className="content">
-                        <div className="title">SECTRETRY</div>
-                        <div className="name">ELITE'S SCHOOL</div>
-                        <div className="des">
-                            A secretary is an administrative professional who performs various clerical and organizational
-                            tasks to support businesses, organizations, or individuals.
-                        </div>
+                        <div className="title"></div>
+                        <div className="name"></div>
+               
                     </div>
                 </div>
                 <div
@@ -97,7 +94,7 @@ const Carousel = () => {
                 </div>
                 <div
                     className="item"
-                    style={{ backgroundImage: "url(/image/IMG_COM_202504272302144513.jpg  )" }}
+                    style={{ backgroundImage: "url( /image/c5.jpg )" }}
                 >
                     <div className="content">
                         <div className="title">OUR</div>
@@ -108,22 +105,19 @@ const Carousel = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div
+                <div
           className="item"
-          style={{ backgroundImage: "url(/image/IMG_COM_202504272302147114.jpg )" }}
+          style={{ backgroundImage: "url(/image/awade3.jpg )" }}
         >
           <div className="content">
-            <div className="title">SLIDER</div>
-            <div className="name">OWL</div>
-            <div className="des">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
-              culpa similique consequuntur, reprehenderit dicta repudiandae.
-            </div>
+            <div className="title">THE </div>
+            <div className="name">DIRECTOR</div>
+           
           </div>
-        </div> */}
+        </div>
                 <div
                     className="item"
-                    style={{ backgroundImage: "url(/image/IMG_COM_202504272302155105.jpg )" }}
+                    style={{ backgroundImage: "url(/image/cbt1.jpg )" }}
                 >
                     <div className="content">
                         <div className="title">OUR</div>
@@ -136,30 +130,28 @@ const Carousel = () => {
                 </div>
                 <div
                     className="item"
-                    style={{ backgroundImage: "url(/image/IMG_COM_202504272302157496.jpg )" }}
+                    style={{ backgroundImage: "url( /image/s7.jpg )" }}
                 >
                     <div className="content">
-                        <div className="title">STUDENT</div>
+                        <div className="title">SPORT</div>
                         <div className="name">OUTING</div>
                         <div className="des">
-                            A student outing is not merely an escape from four walls—it is education coming alive beneath the open sky. When books step off the page and into the rustling leaves of a forest, the hum of a museum, or the
-                            echoing halls of a historic site, learning becomes not just absorbed, but felt.
+                          Administering the first aid
                         </div>
                     </div>
                 </div>
-                {/* <div
+                <div
                     className="item"
-                    style={{ backgroundImage: "url(/image/IMG_COM_202504272302167479.jpg )" }}
+                    style={{ backgroundImage: "url(/image/awade.jpg)" }}
                 >
                     <div className="content">
-                        <div className="title">SLIDER</div>
-                        <div className="name">PARROT</div>
+                        <div className="title">Award</div>
+                        <div className="name">Social development</div>
                         <div className="des">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
-                            culpa similique consequuntur, reprehenderit dicta repudiandae.
+                        Award to the founder for his dedication to Social deelopment
                         </div>
                     </div>
-                </div> */}
+                </div>
                 {/* <div
           className="item"
           style={{ backgroundImage: "url(/image/IMG_COM_2025042723021691010.jpg   )" }}

@@ -1,8 +1,15 @@
 import React, { useState, useEffect } from 'react';
+import emailjs from 'emailjs-com'; // Import EmailJS
 import '@fortawesome/fontawesome-free/css/all.css';
 
 const Contact = () => {
     const [showButton, setShowButton] = useState(false);
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: '',
+    });
+    const [successMessage, setSuccessMessage] = useState(false); // State for success popup
 
     useEffect(() => {
         const handleScroll = () => {
@@ -24,6 +31,40 @@ const Contact = () => {
         });
     };
 
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
+    };
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        // Map formData to match the placeholders in your EmailJS template
+        const templateParams = {
+            title: formData.name, // Map "title" to the "name" field
+            email: formData.email,
+            message: formData.message,
+        };
+    
+        emailjs
+            .send(
+                'service_9ba0urv', // Replace with your EmailJS Service ID
+                'template_gauhvke', // Replace with your EmailJS Template ID
+                templateParams,     // Pass the mapped template parameters
+                'zZvNP0ejMOExAsSTs'   // Replace with your EmailJS Public Key
+            )
+            .then(
+                (result) => {
+                    setSuccessMessage(true); // Show success message
+                    setTimeout(() => setSuccessMessage(false), 3000); // Hide after 3 seconds
+                    setFormData({ name: '', email: '', message: '' }); // Reset form
+                },
+                (error) => {
+                    alert('Failed to send message. Please try again.');
+                }
+            );
+    };
+
     return (
         <div>
             <div className="contact-section" id="contact">
@@ -31,14 +72,15 @@ const Contact = () => {
                 <div className="contact-container">
                     <div className="contact-details">
                         <p>
-                            <strong>Address:</strong> 123 Elite College Road, Lagos, Nigeria
+                            <strong>Address:</strong> 21, Adigun street, Agbado Ijaiye, Lagos state.
                         </p>
                         <p>
                             <strong>Email:</strong>{" "}
-                            <a href="mailto:support@example.com">support@example.com</a>
+                            <a href="mailto:elitescollege@gmail.com">Elitescollege@gmail.com</a>
                         </p>
                         <p>
-                            <strong>Phone:</strong> +234 XXX XXXX XXX
+                            <strong>Phone:</strong> +234 8053835963, +234 8133478247<br />
+                            <strong>WhatsApp:</strong> +234 8090533172
                         </p>
                     </div>
                     <div className="contact-map">
@@ -53,14 +95,16 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <form id="contact-form" onSubmit={(e) => e.preventDefault()}>
+            <form id="contact-form" onSubmit={sendEmail}>
                 <label htmlFor="name">Name:</label>
                 <input
                     type="text"
                     id="name"
                     name="name"
                     placeholder="Enter your name"
-                    required=""
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
                 />
                 <label htmlFor="email">Email:</label>
                 <input
@@ -68,18 +112,26 @@ const Contact = () => {
                     id="email"
                     name="email"
                     placeholder="Enter your email"
-                    required=""
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
                 />
                 <label htmlFor="message">Message:</label>
                 <textarea
                     id="message"
                     name="message"
                     placeholder="Enter your message"
-                    required=""
-                    defaultValue={""}
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
                 />
                 <button type="submit">Send</button>
             </form>
+            {successMessage && (
+                <div className="success-popup">
+                    <p>Message sent successfully!</p>
+                </div>
+            )}
             {showButton && (
                 <button id="back-to-top" className="back-to-top" onClick={scrollToTop}>
                     ↑
@@ -88,17 +140,14 @@ const Contact = () => {
             <div className="social-media-section">
                 <h2>Follow Us</h2>
                 <div className="social-icons">
-                    <a href="https://facebook.com" target="_blank" className="social-icon">
+                    <a href="https://facebook.com/profile.php?id=100086995879928" target="_blank" className="social-icon">
                         <i className="fab fa-facebook-f" />
                     </a>
-                    <a href="https://twitter.com" target="_blank" className="social-icon">
+                    <a href="https://twitter.com/profile.php?id=100086995879928" target="_blank" className="social-icon">
                         <i className="fab fa-twitter" />
                     </a>
-                    <a href="https://instagram.com" target="_blank" className="social-icon">
+                    <a href="https://instagram.com/profile.php?id=100086995879928" target="_blank" className="social-icon">
                         <i className="fab fa-instagram" />
-                    </a>
-                    <a href="https://linkedin.com" target="_blank" className="social-icon">
-                        <i className="fab fa-linkedin-in" />
                     </a>
                 </div>
             </div>

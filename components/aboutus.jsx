@@ -36,7 +36,7 @@ const aboutus = () => {
                     </div>
                     <div className="grid-item">
                         <img src="/image/IMG_4451.png" alt="Our Students" />
-                        <div className="grid-title">Our Sectretry</div>
+                        <div className="grid-title">Our Student</div>
                     </div>
                     <div className="grid-item">
                         <img src="/image/IMG_4447.jpg" alt="Our Facilities" />
