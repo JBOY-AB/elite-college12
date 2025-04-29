@@ -76,7 +76,7 @@ const Contact = () => {
                         </p>
                         <p>
                             <strong>Email:</strong>{" "}
-                            <a href="mailto:elitescollege@gmail.com">Elitescollege@gmail.com</a>
+                            Elitescollege@gmail.com
                         </p>
                         <p>
                             <strong>Phone:</strong> +234 8053835963, +234 8133478247<br />
@@ -143,10 +143,8 @@ const Contact = () => {
                     <a href="https://facebook.com/profile.php?id=100086995879928" target="_blank" className="social-icon">
                         <i className="fab fa-facebook-f" />
                     </a>
-                    <a href="https://twitter.com/profile.php?id=100086995879928" target="_blank" className="social-icon">
-                        <i className="fab fa-twitter" />
-                    </a>
-                    <a href="https://instagram.com/profile.php?id=100086995879928" target="_blank" className="social-icon">
+                   
+                    <a href="https://www.instagram.com/elitescollege21/" target="_blank" className="social-icon">
                         <i className="fab fa-instagram" />
                     </a>
                 </div>

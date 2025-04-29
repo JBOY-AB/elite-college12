@@ -105,16 +105,7 @@ const Carousel = () => {
                         </div>
                     </div>
                 </div>
-                <div
-          className="item"
-          style={{ backgroundImage: "url(/image/awade3.jpg )" }}
-        >
-          <div className="content">
-            <div className="title">THE </div>
-            <div className="name">DIRECTOR</div>
-           
-          </div>
-        </div>
+          
                 <div
                     className="item"
                     style={{ backgroundImage: "url(/image/cbt1.jpg )" }}
@@ -152,19 +143,7 @@ const Carousel = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div
-          className="item"
-          style={{ backgroundImage: "url(/image/IMG_COM_2025042723021691010.jpg   )" }}
-        >
-          <div className="content">
-            <div className="title">SLIDER</div>
-            <div className="name">HERON</div>
-            <div className="des">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
-              culpa similique consequuntur, reprehenderit dicta repudiandae.
-            </div>
-          </div>
-        </div> */}
+       
                 <div
                     className="item"
                     style={{ backgroundImage: "url(image/IMG_4447.jpg)" }}
@@ -178,19 +157,7 @@ const Carousel = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div
-                    className="item"
-                    style={{ backgroundImage: "url(image/IMG_4447.jpg)" }}
-                >
-                    <div className="content">
-                        <div className="title">SLIDER</div>
-                        <div className="name">PARROT</div>
-                        <div className="des">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
-                            culpa similique consequuntur, reprehenderit dicta repudiandae.
-                        </div>
-                    </div>
-                </div> */}
+        
             </div>
 
             <div className="arrows">

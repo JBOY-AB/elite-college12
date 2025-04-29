@@ -486,6 +486,36 @@ nav ul li a.home-link:active {
 /* Carousel */
 
 
+/* Default: Items are visible */
+.item {
+  display: block;
+}
+
+@media (min-width: 769px) {
+  .hide-desktop {
+      display: none; /* Completely remove from layout */
+      visibility: hidden; /* Ensure it's not visible */
+      opacity: 0; /* Ensure no transparency issues */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1112,7 +1142,8 @@ form button:hover {
 .social-media-section {
   text-align: center;
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
+  color: #C8A2C8;
 }
 
 .social-media-section h2 {
