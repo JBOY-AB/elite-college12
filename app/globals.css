@@ -330,6 +330,92 @@ nav ul li a.home-link:active {
 }
 
 
+/* Tablet Styles */
+@media (max-width: 1024px) and (min-width: 768px) {
+  /* Adjust the desktop menu to fit smaller screens */
+  .desktop-menu {
+    display: none; /* Hide the desktop menu */
+  }
+
+  /* Show the mobile menu icon */
+  .menu-icon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  /* Mobile navigation menu */
+  .mobile-nav {
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: purple;
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .mobile-nav.visible {
+    display: block; /* Show when toggled */
+  }
+
+  .mobile-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile-nav ul li {
+    margin: 10px 0;
+  }
+
+  .mobile-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .mobile-nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  /* Adjust the button for tablets */
+  .btn {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .btn-link {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: purple;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .btn-link:hover {
+    background-color: #f0f0f0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
