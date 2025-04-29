@@ -391,7 +391,7 @@ nav ul li a.home-link:active {
     display: inline-block;
     text-align: center;
     padding: 10px 20px;
-    background-color: #fff;
+    /* background-color: #fff; */
     color: purple;
     border-radius: 5px;
     text-decoration: none;
