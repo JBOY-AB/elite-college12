@@ -76,7 +76,7 @@ const Contact = () => {
                         </p>
                         <p>
                             <strong>Email:</strong>{" "}
-                            Elitescollege@gmail.com
+                            Elitescollege586@gmail.com
                         </p>
                         <p>
                             <strong>Phone:</strong> +234 8053835963, +234 8133478247<br />
