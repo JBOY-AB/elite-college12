@@ -571,6 +571,49 @@ nav ul li a.home-link:active {
   }
 }
 
+.pin-icon {
+  color: purple; /* Blue color */
+  font-size: 1.5rem; /* Adjust icon size */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.pin-icon:hover {
+  color:#C8A2C8; /* Darker blue on hover */
+}
+
+.styled-payment-section {
+  background-color: #f9f9f9; /* Light gray background */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Spacing inside the box */
+  margin-top: 20px; /* Space above the section */
+  font-family: Arial, sans-serif; /* Clean font */
+  color: #333; /* Dark text color */
+}
+
+.styled-payment-section p {
+  margin: 10px 0; /* Space between paragraphs */
+}
+
+.styled-payment-section ol {
+  padding-left: 20px; /* Indent for ordered list */
+}
+
+.styled-payment-section a {
+  color: #007bff; /* Blue links */
+  text-decoration: none; /* Remove underline */
+}
+
+.styled-payment-section a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.styled-payment-section .pin-icon {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.2em; /* Slightly larger icon */
+}
 
 
 

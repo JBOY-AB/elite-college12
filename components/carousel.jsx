@@ -71,19 +71,16 @@ const Carousel = () => {
                     <div className="content">
                         <div className="title">LEARNING </div>
                         <div className="name">FACILITIES</div>
-                        <div className="des">
-                        Great learning facilities are more than just buildings—they are living ecosystems where curiosity thrives, potential blossoms, and futures take shape.
-                         Here’s what truly transforms spaces into sanctuaries of learning:
-                        </div>
+                     
                     </div>
                 </div>
                 <div
                     className="item"
-                    style={{ backgroundImage: "url(/image/IMG_4451.png )" }}
+                    style={{ backgroundImage: "url(/image/cbt1 )" }}
                 >
                     <div className="content">
-                        <div className="title"></div>
-                        <div className="name"></div>
+                        <div className="title">UTME/SSCE</div>
+                        <div className="name">CLASS</div>
                
                     </div>
                 </div>
@@ -98,11 +95,7 @@ const Carousel = () => {
                 >
                     <div className="content">
                         <div className="title">OUR</div>
-                        <div className="name">STUDENT</div>
-                        <div className="des">
-                            The promise of something extraordinary about to unfold. With every page you turn, every question you ask, you are not just learning;
-                            you are weaving the future with threads of curiosity and resilience.
-                        </div>
+                        <div className="name">STUDENTS</div>
                     </div>
                 </div>
           
@@ -112,11 +105,8 @@ const Carousel = () => {
                 >
                     <div className="content">
                         <div className="title">OUR</div>
-                        <div className="name">STUDENT</div>
-                        <div className="des">
-                            The promise of something extraordinary about to unfold. With every page you turn, every question you ask, you are not just learning;
-                            you are weaving the future with threads of curiosity and resilience.
-                        </div>
+                        <div className="name">STUDENTS</div>
+                     
                     </div>
                 </div>
                 <div
@@ -126,9 +116,7 @@ const Carousel = () => {
                     <div className="content">
                         <div className="title">SPORT</div>
                         <div className="name">OUTING</div>
-                        <div className="des">
-                          Administering the first aid
-                        </div>
+                      
                     </div>
                 </div>
                 <div
@@ -136,11 +124,9 @@ const Carousel = () => {
                     style={{ backgroundImage: "url(/image/awade.jpg)" }}
                 >
                     <div className="content">
-                        <div className="title">Award</div>
+                        <div className="title">AWARD</div>
                         <div className="name">Social development</div>
-                        <div className="des">
-                        Award to the founder for his dedication to Social deelopment
-                        </div>
+                      
                     </div>
                 </div>
        
@@ -149,12 +135,8 @@ const Carousel = () => {
                     style={{ backgroundImage: "url(image/IMG_4447.jpg)" }}
                 >
                     <div className="content">
-                        <div className="title">JAMB $ WAEC </div>
+                        <div className="title">JAMB & WAEC </div>
                         <div className="name">CLASSES</div>
-                        <div className="des">
-                            This is where dreams take shape—between the pages of past questions and the ink of your determination. Every equation solved, every essay drafted,
-                            every midnight oil burned is a step closer to the future you’re building.
-                        </div>
                     </div>
                 </div>
         
