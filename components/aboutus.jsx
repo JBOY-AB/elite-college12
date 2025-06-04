@@ -2,12 +2,6 @@ import React, { useState } from 'react';
 import { FaSun, FaMoon } from 'react-icons/fa'; // Import icons for light and dark mode
 
 const AboutUs = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  const toggleTheme = () => {
-    setIsDarkMode(!isDarkMode);
-  };
-
   return (
     <div className={isDarkMode ? 'dark-mode' : 'light-mode'}>
       <button className="theme-toggle" onClick={toggleTheme}>
