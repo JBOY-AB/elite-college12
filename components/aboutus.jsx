@@ -1,12 +1,7 @@
-import React, { useState } from 'react';
-import { FaSun, FaMoon } from 'react-icons/fa'; // Import icons for light and dark mode
-
+import React from 'react';
 const AboutUs = () => {
   return (
-    <div className={isDarkMode ? 'dark-mode' : 'light-mode'}>
-      <button className="theme-toggle" onClick={toggleTheme}>
-        {isDarkMode ? <FaSun /> : <FaMoon />}
-      </button>
+    <div>
       <section className="about-us" id="aboutus">
         <h2 className="section-title">Our Values</h2>
         <div className="values-container">
