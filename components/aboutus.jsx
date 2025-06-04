@@ -12,7 +12,7 @@ const AboutUs = () => {
             </p>
           </div>
           <div className="value-card">
-            <h3 className="value-title">Our Staff</h3>
+            <h3 className="value-title">Our Staffs</h3>
             <p className="value-description">
               Our staff are dedicated and experienced in their core area of specialization. They are the reason behind the success of our students.
             </p>
